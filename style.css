@@ -376,3 +376,88 @@ align-items: center;
     width: 100%;
     border-radius: 10px;
   }
+
+  .angebote {
+  text-align: center;
+  padding: 40px 40px;
+  background-color: #111;
+  height: 600px;
+}
+
+.angebote h1 {
+  font-size: 2em;
+  margin-bottom: 40px;
+  color: #fff;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 70px;
+}
+
+.card {
+  position: relative;
+  width: 300px;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(255,255,255,0.1);
+  display: flex;
+  align-items: flex-end;
+}
+
+.card .text {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
+  padding: 20px;
+  text-align: left;
+}
+
+.card h2 {
+  margin: 0 0 10px;
+  font-size: 1.2em;
+  color: #fff;
+}
+
+.card p {
+  font-size: 1em;
+  color: #fff;
+}
+
+footer {
+    background: #fff;
+    color: #111;
+    padding: 30px;
+    text-align: center;
+}
+
+footer a {
+    color: #c40021;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    margin-right: 15px;
+}
+
+.contact-info-wrapper {
+    max-width: 800px;
+    left: 10%;
+}
+ 
+.contact-details {
+    margin-top: 30px;
+}
+ 
+.contact-item {
+    color: #ccc;
+    margin-bottom: 15px;
+    font-size: 1rem;
+}
+ 
+.contact-label {
+    color: #c40021;
+    font-weight: bold;
+}  
